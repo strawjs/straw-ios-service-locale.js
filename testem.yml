@@ -1,4 +1,4 @@
-farmework: jasmine
+framework: mocha
 src_files:
 - bower_components/straw-ios/straw-ios.js
 - bower_components/es6-promise/promise.js
@@ -8,4 +8,3 @@ src_files:
 - spec.js
 launch_in_ci:
 - PhantomJS
-
