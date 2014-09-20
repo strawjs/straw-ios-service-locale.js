@@ -1,6 +1,6 @@
 
 
-/* global describe, it, chai, sinon */
+/* global describe, it, chai, sinon, straw */
 
 var expect = chai.expect;
 
@@ -8,7 +8,7 @@ describe('straw.service.locale', function () {
     'use strict';
 
     it('is a object', function () {
-        expect(window.straw.service.locale).to.be.a('object');
+        expect(straw.service.locale).to.be.a('object');
     });
 
     describe('.getLanguage', function () {
