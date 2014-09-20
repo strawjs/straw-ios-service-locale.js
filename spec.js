@@ -11,4 +11,20 @@ describe('straw.service.locale', function () {
         expect(window.straw.service.locale).to.be.a('object');
     });
 
+    describe('.getLanguage', function () {
+
+        it('calls straw.core.serviceCall', function () {
+
+            var mock = sinon.mock(straw.core);
+            mock.expects('serviceCall').once();
+
+            straw.service.locale.getLanguage();
+
+            mock.verify();
+            mock.restore();
+
+        });
+
+    });
+
 });
