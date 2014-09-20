@@ -1,0 +1,29 @@
+{
+  "name": "straw-ios-service-locale.js",
+  "main": "index.js",
+  "version": "0.0.0",
+  "authors": [
+    "Yoshiya Hinosawa <stibium121@gmail.com>"
+  ],
+  "keywords": [
+    "straw",
+    "strawiosservice",
+    "locale"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "straw-ios": "~0.3.4",
+    "es6-promise": "~1.0.0"
+  },
+  "devDependencies": {
+    "chai": "~1.9.1",
+    "sinon": "http://sinonjs.org/releases/sinon-1.9.0.js"
+  }
+}
