@@ -1,6 +1,6 @@
 {
   "name": "straw-ios-service-locale.js",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "JS interface for straw-ios-service-locale",
   "main": "index.js",
   "scripts": {

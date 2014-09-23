@@ -1,4 +1,4 @@
-# straw-ios-service-locale v0.0.0
+# straw-ios-service-locale v0.1.0
 
 > JS interface for straw-ios-service-locale
 
